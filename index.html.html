@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Website</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p>My journey as a student</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">My Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Learn"
+           target="_blank">
+            Learn Web Development
+        </a>
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="content-section">
+
+            <h2>About Me</h2>
+
+            <p>
+                My name is MULEYA CHIBWE. I am a student at Mulungushi
+                University studying Mathematics and Information
+                Communication Technology. I am interested in computers,
+                mathematics and web development. I enjoy learning new
+                computer skills and improving my knowledge through
+                practical activities. My goal is to become better at
+                programming and web development so that I can create
+                useful websites and solve problems using technology.
+                My Student number:202504856.
+            </p>
+
+        </section>
+
+
+        <!-- HOBBIES -->
+        <section id="hobbies" class="content-section">
+
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>Listening to music</li>
+                <li>Playing football</li>
+                <li>Learning computer skills</li>
+            </ul>
+
+        </section>
+
+
+        <!-- LEARNING PLAN -->
+        <section id="learning" class="content-section">
+
+            <h2>My Learning Plan</h2>
+
+            <p>
+                These are some of the steps I will take to improve my
+                web development skills:
+            </p>
+
+            <ol>
+                <li>Study HTML and practise creating webpages.</li>
+
+                <li>
+                    Study CSS and practise styling webpages.
+                </li>
+
+                <li>
+                    Learn JavaScript and practise creating
+                    interactive webpages.
+                </li>
+
+                <li>
+                    Build small websites to improve my practical skills.
+                </li>
+            </ol>
+
+
+            <!-- WEEKLY TABLE -->
+            <h3>My Weekly Web Learning Plan</h3>
+
+            <table>
+
+                <caption>
+                    Weekly Web Development Practice Plan
+                </caption>
+
+                <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Practice Task</th>
+                </tr>
+
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>Practise HTML elements</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>CSS</td>
+                    <td>Practise styling webpages</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>Web Design</td>
+                    <td>Build and test a webpage</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+
+        <!-- PHOTOS -->
+        <section id="photos" class="content-section">
+
+            <h2>My Photos</h2>
+
+            <div class="gallery">
+
+                <figure>
+
+                    <img src="images/photo1.jpg"
+                         alt="Photo showing my learning environment">
+
+                    <figcaption>
+                        My learning environment.
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img src="images/photo2.jpg"
+                         alt="Photo showing my computer">
+
+                    <figcaption>
+                        My computer and study equipment.
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img src="images/photo3.jpg"
+                         alt="Photo showing one of my hobbies">
+
+                    <figcaption>
+                        One of my favourite activities.
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- MEDIA -->
+        <section id="media" class="content-section">
+
+            <h2>My Media</h2>
+
+
+            <!-- VIDEO -->
+            <h3>My Introduction Video</h3>
+
+            <video controls>
+
+                <source src="videos/intro.mp4"
+                        type="video/mp4">
+
+                Your browser does not support the video element.
+
+            </video>
+
+            <p>
+                In this video, I introduce myself, mention my programme,
+                and explain one web development skill I hope to learn.
+            </p>
+
+
+            <!-- AUDIO -->
+            <h3>My Audio Recording</h3>
+
+            <audio controls>
+
+                <source src="videos/voice.mp3"
+                        type="audio/mpeg">
+
+                Your browser does not support the audio element.
+
+            </audio>
+
+            <p>
+                This audio recording describes one of my hobbies
+                and explains my interest in studying web technologies.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="content-section">
+
+            <h2>Contact Me</h2>
+
+            <form action="#">
+
+                <label for="name">
+                    Name:
+                </label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       required>
+
+
+                <label for="email">
+                    Email:
+                </label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+
+
+                <label for="topic">
+                    Topic:
+                </label>
+
+                <input type="text"
+                       id="topic"
+                       name="topic">
+
+
+                <label for="message">
+                    Message:
+                </label>
+
+                <textarea id="message"
+                          name="message"
+                          required></textarea>
+
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+            <p>
+                This form is for demonstration only and does not
+                send data.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 My Personal Website
+        </p>
+
+        <p>
+            Created for ICT251 Web Technologies.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
